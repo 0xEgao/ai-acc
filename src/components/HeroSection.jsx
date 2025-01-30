@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 function HeroSection() {
     return (
         <div>
-            <div className="w-screen min-h-screen fixed flex flex-col items-center justify-center px-4 sm:px-6 pointer-events-none">
+            <div className="w-screen min-h-screen fixed sm:flex sm:flex-col items-center justify-center px-4 sm:px-6 pointer-events-none">
                 <div className="absolute inset-0 bg-[url('/griddy.svg')] bg-cover opacity-20"></div>
                 <div className="container mx-auto flex flex-col items-center gap-4 m-6 sm:m-16">
                     <div className="flex flex-wrap justify-center gap-4">
@@ -12,10 +12,10 @@ function HeroSection() {
                         <img src="/genlayer.png" alt="genlayer logo" className="h-16 w-32 sm:h-20 sm:w-40" />
                         <img src="/light.svg" alt="light logo" className="h-16 w-32 sm:h-20 sm:w-40" />
                     </div>
-                    <h1 className="font-bold bg-gradient-to-r text-black bg-clip-text text-2xl sm:text-3xl md:text-5xl">
+                    <h1 className="font-bold bg-gradient-to-r text-black bg-clip-text text-3xl sm:text-3xl md:text-5xl">
                         presents
                     </h1>
-                    <h1 className="font-bold text-transparent bg-gradient-to-r from-green-400 to-green-900 bg-clip-text text-2xl sm:text-3xl md:text-5xl">
+                    <h1 className="font-bold text-transparent bg-gradient-to-r from-green-400 to-green-900 bg-clip-text text-3xl sm:text-3xl md:text-5xl">
                         ai/acceleration
                     </h1>
                     <br />
